@@ -1,9 +1,9 @@
 Siesta.Harness.Browser.ExtJS.configure({
   title: 'ExtJS Application',
-  loaderPath: { 'ExtJS' : '/assets/extjs/app' },
+  loaderPath: { 'ExtJS' : 'assets/extjs4/app' },
 
   preload : [
-    "/assets/extjs/resources/css/ext-all.css",
-    "/assets/extjs/ext-all-debug.js"
+    "assets/extjs4/resources/css/ext-all.css",
+    "assets/extjs4/ext-all-debug.js"
   ]
 });
