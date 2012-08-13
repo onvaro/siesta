@@ -29,7 +29,7 @@ module Siesta
       attribute :suite, TestSuite
 
       def url
-        @url ||= File.join('/assets', path.gsub(suite.path, ''))
+        @url ||= File.join('assets', path.gsub(suite.path, ''))
       end
     end
 
