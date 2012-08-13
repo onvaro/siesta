@@ -5,5 +5,7 @@ Siesta.Harness.Browser.ExtJS.configure({
   preload : [
     "assets/extjs4/resources/css/ext-all.css",
     "assets/extjs4/ext-all-debug.js"
-  ]
+  ],
+  autoCheckGlobals: true,
+  expectedGlobals: ['Ext']
 });
